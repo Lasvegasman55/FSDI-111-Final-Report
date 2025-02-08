@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <h1 class="display-4 mb-4">About</h1>
+            
+            <!-- Profile Image -->
+            <div class="mb-5">
+                <img src="/api/placeholder/400/400" alt="Profile Photo" class="rounded-circle img-fluid mb-4" style="max-width: 200px;">
+            </div>
+
+            <!-- Introduction -->
+            <div class="lead mb-4">
+                Hello! I'm Michael Matthews, a passionate software developer with over 5 years of experience crafting digital solutions that make a difference.
+            </div>
+
+            <!-- Journey Section -->
+            <h2 class="h3 mb-3">My Journey</h2>
+            <p class="mb-4">
+                My journey into software development began during my college years at the University of Washington, where I discovered my love for problem-solving through code. What started as a curiosity about how websites worked quickly evolved into a deep passion for creating elegant, efficient solutions to complex problems.
+            </p>
+
+            <!-- What I Do Section -->
+            <h2 class="h3 mb-3">What I Do</h2>
+            <p class="mb-4">
+                As a full-stack developer, I specialize in building scalable web applications using modern technologies. My expertise spans across the entire development lifecycle, from initial concept and user experience design to backend architecture and deployment. I'm particularly passionate about creating intuitive interfaces that make technology accessible to everyone.
+            </p>
+
+            <!-- Skills Section -->
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h3 class="h4 mb-3">Technical Skills</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>JavaScript/TypeScript</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>React/Next.js</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Python/Django</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Node.js/Express</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>SQL/NoSQL Databases</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="h4 mb-3">Core Strengths</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i>Problem Solving</li>
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i>Clean Code Architecture</li>
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i>Team Collaboration</li>
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i>Agile Methodology</li>
+                        <li class="mb-2"><i class="bi bi-star-fill text-warning me-2"></i>Technical Leadership</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Beyond Coding Section -->
+            <h2 class="h3 mb-3">Beyond Coding</h2>
+            <p class="mb-3">
+                When I'm not writing code, you'll find me contributing to open-source projects, mentoring aspiring developers, or exploring new technologies. I believe in continuous learning and regularly attend tech conferences and workshops to stay at the forefront of industry developments.
+            </p>
+            <p class="mb-4">
+                Outside of tech, I'm an avid hiker and amateur photographer. These hobbies help me maintain a creative perspective and bring fresh ideas to my development work.
+            </p>
+
+            <!-- Connect Section -->
+            <h2 class="h3 mb-3">Let's Connect</h2>
+            <p class="mb-4">
+                I'm always excited to collaborate on interesting projects or discuss new opportunities. Whether you have a specific project in mind or just want to connect, feel free to reach out through any of my social channels or send me an email.
+            </p>
+
+            <!-- Call to Action Buttons -->
+            <div class="mt-4">
+                <a href="#" class="btn btn-primary me-2 mb-2">View Portfolio</a>
+                <a href="#" class="btn btn-outline-secondary me-2 mb-2">Download Resume</a>
+                <a href="#" class="btn btn-outline-dark mb-2">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
